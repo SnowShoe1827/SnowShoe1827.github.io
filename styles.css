@@ -274,3 +274,9 @@ img.photo-fit {
 h2 {
 	font-variant: small-caps;
 }
+
+span.announcement {
+	color: white;
+	background-color: #002855;
+    font-size: larger;
+}
