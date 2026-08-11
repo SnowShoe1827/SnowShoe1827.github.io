@@ -281,7 +281,7 @@ span.announcement {
     font-size: larger;
 }
 
-#clock{
+.center_clock {
   display: block;
   text-align: center;
   margin: 0 auto;
