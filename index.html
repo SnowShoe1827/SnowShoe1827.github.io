@@ -33,6 +33,16 @@
 </header>
 <h1>Welcome to the Snowshoe Thompson Lodge Website</h1>
 <div id="clock"></div>
+<script>
+  const el = document.getElementById('clock');
+  function tick() {
+    const now = new Date();
+    el.textContent = now.toLocaleString();
+  }
+  tick();
+  setInterval(tick, 1000);
+</script>
+
 <div class="grid">
 	<div class="cell merge-12"><h2>Announcements</h2>Announcements! Announcements! Announcements! Make the speech nice and short...nice and short...nice and short...because we don't like 'em!
 		<p><span class="announcement">On Saturday, August 8th, we had movie night!<br>We watched "Number 24" (aka Nr. 24) about Norwegian resistance during WWII.</span></p>
