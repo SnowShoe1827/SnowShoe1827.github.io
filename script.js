@@ -1,3 +1,11 @@
+  const el = document.getElementById('clock');
+  function tick() {
+    const now = new Date();
+    el.textContent = now.toLocaleString();
+  }
+  tick();
+  setInterval(tick, 1000);
+
 function dayIndexFromDate(date, total) {
   const start = new Date("2020-01-01T00:00:00Z");
   const diffDays = Math.floor((date - start) / 86400000);
