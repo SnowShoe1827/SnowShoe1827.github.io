@@ -280,3 +280,9 @@ span.announcement {
 	background-color: #002855;
     font-size: larger;
 }
+
+.center_clock {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  }
