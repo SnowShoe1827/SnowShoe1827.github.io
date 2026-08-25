@@ -185,6 +185,7 @@ display: block;
 
 span.highlight {
 	background: #f9423a;
+	border-radius: 5px;
 }
 
 ul.no-bullets {
@@ -228,12 +229,17 @@ img.photo-lg {
 	text-decoration: none;
 	color: black;
 	background-color: #f9423a;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
 }
 
 #wotd-norwegian-link:hover {
 	text-decoration: none;
 	color: #f9423a;
 	background-color: #a89968;
+	border-radius: 5px;
 	font-size: large;
 }
 
@@ -279,6 +285,9 @@ span.announcement {
 	color: white;
 	background-color: #002855;
     font-size: larger;
+	border-radius: 5px 5px 5px 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .center_clock {
