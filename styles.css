@@ -290,6 +290,7 @@ span.announcement {
 	padding-right: 5px;
 	-webkit-decoration-break: clone;
 	box-decoration-break: clone;
+	overflow: hidden;
 }
 
 .center_clock {
