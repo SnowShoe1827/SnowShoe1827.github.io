@@ -282,6 +282,7 @@ h2 {
 }
 
 span.announcement {
+	position: relative;
 	color: white;
 	background-color: #002855;
     font-size: larger;
@@ -290,7 +291,7 @@ span.announcement {
 	padding-right: 5px;
 	-webkit-decoration-break: clone;
 	box-decoration-break: clone;
-	overflow: visible;
+	
 }
 
 .center_clock {
