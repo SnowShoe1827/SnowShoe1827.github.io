@@ -282,7 +282,7 @@ h2 {
 }
 
 span.announcement {
-	position: relative;
+	display: inline-block;
 	color: white;
 	background-color: #002855;
     font-size: larger;
