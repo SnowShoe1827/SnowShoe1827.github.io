@@ -268,6 +268,20 @@ img.photo-lg {
 	grid-row: 3;
 }
 
+.merge-row4 {
+	background-image: linear-gradient(to bottom, 
+	rgba(255,255,255, 1) 0%,
+	 rgba(255, 255, 255, 0.80) 35%,
+	 rgba(255, 255, 255, 0.70) 70%,
+	 rgba(255, 255, 255, 0.40) 100%
+	 ), url("assets/flag.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	grid-column: 1/ span 3;
+	grid-row: 4;
+}
+
 a.terms:hover {
 	color: #a89968;
 }
