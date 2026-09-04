@@ -269,6 +269,7 @@ img.photo-lg {
 }
 
 .merge-row4 {
+	min-height: 200px;
 	background-image: linear-gradient(to bottom, 
 	rgba(255,255,255, 1) 0%,
 	 rgba(255, 255, 255, 0.80) 35%,
