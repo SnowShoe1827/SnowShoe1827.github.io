@@ -254,6 +254,56 @@ img.photo-lg {
 	font-size: large;
 }
 
+#potd-norwegian-link {
+	text-decoration: none;
+	color: black;
+	background-color: #f9423a;
+	border-radius: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
+#potd-norwegian-link:hover {
+	text-decoration: none;
+	color: #f9423a;
+	background-color: #a89968;
+	border-radius: 5px;
+	font-size: large;
+}
+
+#potd-english-link {
+	text-decoration: none;
+	color: black;
+}
+
+#potd-english-link:hover {
+	text-decoration: none;
+	color: #f9423a;
+	font-size: large;
+}
+
+#wotd-tabs, #wotdtabs .ui-tabs-nav, #wotd-tabs .ui-tabs-panel,
+#wotd-tabs .ui-widget-content, #wotd-tabs .ui-widget-header {
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+#wotd-tabs .ui-tabs-nav {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 12px;
+	padding: 0;
+	border: none;
+	background: transparent;
+}
+
+#wotd-tabs .ui-tabs-panel {
+	padding: 8px 0;
+	text-align: center;
+}
+
 .inner-cell {
 	grid-column: 1 / span 3;
 	grid-row: 1;
